@@ -15,7 +15,7 @@ client.on('message', message=>{
             var commandFile = require(`./commands/${cmd}.js`);
             commandFile.run(client, message, args);
         } catch(e){
-            console.log(e.content);
+            
         } finally{
             console.log("command completed");
         }
