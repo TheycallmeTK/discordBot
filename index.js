@@ -1,25 +1,31 @@
-const { SlashCommandChannelOption } = require('@discordjs/builders');
-const Discord = require('discord.js'); 
+const Discord = require('discord.js');
+const prefix = '|';
 const client = new Discord.Client();
-const apiFM = "22df4bf82525784ac8e983c4e67379a0";
-const lastURL = 'http://ws.audioscrobbler.com/2.0';
-const topTracks = 'http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=rj&api_key=22df4bf82525784ac8e983c4e67379a0';
+const token = 'ODc5ODI0ODcyNTc3MDQwNDg2.YSVWww.8DEf0jNyjSTILvIUq8l1gAVi6XU';
+var cmd;
 
-var cache = new LastFMCache();
-const API = require('last.fm.api'),
-    api = new API({
-    apiKey : '22df4bf82525784ac8e983c4e67379a0',
-    apiSecret : 'ec7925c3b2d1f2936f56bf5a30c23f0b'
-});
+client.on('message', message=>{
+    var msg = message.content;
+    var author = message.author
+    if(msg.startsWith(prefix, 0)){
+        console.log("yes prefix");
+        cmd = message.content.slice(prefix.length).trim();
 
-client.login('token');
+        try{
+            var commandFile = require(`./commands/${cmd}.js`);
+            commandFile.run(client, message, args);
+        } catch(e){
+            console.log(e.content);
+        } finally{
+            console.log("command completed");
+        }
+    }
+    
+})
+
+
+client.login(token);
 client.on('ready', () => {   
     console.log('The bot is ready'); 
     
 });
-
-fetch(lastURL+topTracks)
-.then(response=>{
-    return response.json;
-})
-.then()
