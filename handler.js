@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const prefix = '|';
 const client = new Discord.Client();
-const token = ODc5ODI0ODcyNTc3MDQwNDg2.YSVWww.DHpogq0Yzt4-UNarqk9JYuG7ZB8;
+const token = 'ODc5ODI0ODcyNTc3MDQwNDg2.YSVWww.8DEf0jNyjSTILvIUq8l1gAVi6XU';
 var cmd;
 
 client.on('message', message=>{
