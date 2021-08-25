@@ -27,5 +27,7 @@ client.on('message', message=>{
 client.login(token);
 client.on('ready', () => {   
     console.log('The bot is ready'); 
-    
+    client.user.setStatus('online');
 });
+
+
