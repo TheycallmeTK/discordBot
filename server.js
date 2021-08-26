@@ -2,24 +2,25 @@ const Discord = require('discord.js');
 const intents = require('discord.js');
 const auth = require('./auth.json');
 const prefix = '|';
-const client = new Discord.Client({intents: ['DIRECT_MESSAGES']});
+const client = new Discord.Client({intents: ['DIRECT_MESSAGES'], token: auth.token, autorun: true});
 var cmd;
 
 
 
 
-client.login(token);
+client.login(auth.token);
 client.on('ready', () => {   
     console.log('The bot is ready'); 
     
 });
 
-client.on('message', message => {
+client.on("messageCreate", message => {
     console.log("message sensed");
     var msg = message.content;
     var author = message.author
     if(msg.startsWith(prefix, 0)){
         console.log("yes prefix");
+        
         cmd = message.content.slice(prefix.length).trim();
 
         try{
@@ -32,4 +33,4 @@ client.on('message', message => {
         }
     }
     
-});
+})
