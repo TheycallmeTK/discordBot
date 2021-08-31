@@ -18,6 +18,9 @@ var client_id = auth.spotifyClient; // Your client id
 var client_secret = auth.spotifySecret; // Your secret
 var redirect_uri = 'http://localhost:8888'; // Your redirect uri
 
+//following code copied from spotify web auth example git: 
+//https://github.com/spotify/web-api-auth-examples/blob/master/authorization_code/app.js
+
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
@@ -147,7 +150,7 @@ app.get('/refresh_token', function(req, res) {
 console.log('Listening on 8888');
 app.listen(8888);
 
-//DISCORD BOT CODE
+//DISCORD BOT CODE (self written)
 
 //discord client initialization
 const client = new Discord.Client({intents: ['GUILDS', 'GUILD_MESSAGES', 'GUILD_MESSAGE_TYPING']});
