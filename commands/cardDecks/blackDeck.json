@@ -1,0 +1,25 @@
+{
+    "cards": 
+    [
+        "Hey Reddit! I'm __ Ask me anything",
+        "Introducing X-treme Baseball! It's like baseball, but with __",
+        "What is Batman's guilty pleasure?",
+        "TSA now prohibits __ on airplanes",
+        "JK Rowlings next book: Harry Potter and the Half __",
+        "That's right, I killed __. How, you ask? Well, I __",
+        "Welcome to the Foo Fighters server! Where we listen to __ and talk about __!",
+        "William Originally played __ on The Colour and the Shape, but Dave thought it sounded too __",
+        "__ is the greatest Foo song, the way Dave __ on it just resonates with me",
+        "Have you been __? Are you satisfied?",
+        "The next album is gonna be insane, Dave's gonnna __ and play __ on two songs!"
+        
+    ],
+    "fooCards":
+    [
+        "Welcome to the Foo Fighters server! Where we listen to __ and talk about __!",
+        "William Originally played __ on The Colour and the Shape, but Dave thought it sounded too __",
+        "__ is the greatest Foo song, the way Dave __ on it just resonates with me",
+        "Have you been __? Are you satisfied?",
+        "The next album is gonna be insane, Dave's gonnna __ and play __ on two songs!"
+    ]
+}
