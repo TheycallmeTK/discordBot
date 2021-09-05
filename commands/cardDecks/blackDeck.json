@@ -1,6 +1,11 @@
 {
     "cards": 
     [
+        "__, High five bro",
+        "Why can't I sleep at night?",
+        "Why is Brett so sweaty?",
+        "Next on MTV, __ newest song!",
+        "War! What is it good for?",
         "Hey Reddit! I'm __ Ask me anything",
         "Introducing X-treme Baseball! It's like baseball, but with __",
         "What is Batman's guilty pleasure?",
@@ -8,18 +13,31 @@
         "JK Rowlings next book: Harry Potter and the Half __",
         "That's right, I killed __. How, you ask? Well, I __",
         "Welcome to the Foo Fighters server! Where we listen to __ and talk about __!",
-        "William Originally played __ on The Colour and the Shape, but Dave thought it sounded too __",
         "__ is the greatest Foo song, the way Dave __ on it just resonates with me",
         "Have you been __? Are you satisfied?",
-        "The next album is gonna be insane, Dave's gonnna __ and play __ on two songs!"
+        "The next album is gonna be insane, Dave's gonnna __ and play __ on two songs!",
+        "Welcome to the Foo Fighters server! Where we listen to __ and talk about __!",
+        "__ is the greatest Foo song, the way Dave __ on it just resonates with me",
+        "Have you been __? Are you satisfied?",
+        "Dave Grohl recently did a __ on __ for all his fans",
+        "These are my famous last __. My number's up, __ will burn",
+        "Wont you let me twist your __, it's getting kind of __",
+        "With the lights out it's less __, here we are now, __ us",
+        "This is a call to all my past __",
+        "Kurt Cobain had to have __ to eat wherever he toured",
+        "The Million __ Demos were the original recordings to be released in Foo Fighter's 2002 album, __ by One",
+        "When Kurt Cobain was asked by Weird Al if he could parody one of his songs, Kurt had ask, 'It's not about __, is it?'"
         
     ],
     "fooCards":
     [
         "Welcome to the Foo Fighters server! Where we listen to __ and talk about __!",
-        "William Originally played __ on The Colour and the Shape, but Dave thought it sounded too __",
         "__ is the greatest Foo song, the way Dave __ on it just resonates with me",
         "Have you been __? Are you satisfied?",
-        "The next album is gonna be insane, Dave's gonnna __ and play __ on two songs!"
+        "Dave Grohl recently did a __ on __ for all his fans",
+        "These are my famous last __. My number's up, __ will burn",
+        "Wont you let me twist your __, it's getting kind of __",
+        "With the lights out it's less __, here we are now, __ us",
+        "This is a call to all my past __"
     ]
 }

@@ -1,12 +1,13 @@
 var currentPlayers = [];
 var lobbyInSession = false;
-
 var gameStarted = false;
 var players = [];
 var playerIDs = [];
 var humanityRules = "To join this lobby of Cards against Humanity, type |join\nTo start the game, type |playCards again";
 var join = require('./join.js')
 var currentChannel;
+
+
 
 exports.vars = {
     gameStarted,
